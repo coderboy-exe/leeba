@@ -1,0 +1,33 @@
+{
+  "name": "webstore_vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@dafcoe/vue-notification": "^0.1.6",
+    "axios": "^0.24.0",
+    "core-js": "^3.6.5",
+    "mosha-vue-toastify": "^1.0.23",
+    "tinymotion": "^0.2.0",
+    "vue": "^3.0.0",
+    "vue-my-toasts": "^2.0.1",
+    "vue-router": "^4.0.0-0",
+    "vue-unicons": "^3.2.1",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  }
+}
